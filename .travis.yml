@@ -1,2 +1,5 @@
 language: android
 script: ./gradlew assembleRelease
+branches:
+  only:
+    - master
