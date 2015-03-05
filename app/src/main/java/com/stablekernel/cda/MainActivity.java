@@ -1,4 +1,4 @@
-package jesseblack.com.cda;
+package com.stablekernel.cda;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
