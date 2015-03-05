@@ -1,5 +1,5 @@
 language: android
-script: ./gradlew assembleRelease
+script: ./gradlew build
 branches:
   only:
     - master
