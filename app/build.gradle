@@ -2,10 +2,10 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 21
-    buildToolsVersion "21.1.1"
+    buildToolsVersion "21.1.2"
 
     defaultConfig {
-        applicationId "jesseblack.com.cda"
+        applicationId "com.stablekernel.cda"
         minSdkVersion 18
         targetSdkVersion 21
         versionCode 1
@@ -21,5 +21,7 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:21.0.2'
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    testCompile 'junit:junit:4.12'
+    testCompile "org.mockito:mockito-core:1.9.5"
 }
